@@ -1,0 +1,164 @@
+[
+    {
+        "profile" : {
+            "name" : "Jose Enrique Montañez Villanueva",
+            "jobTitle" : "Senior iOS Developer",
+            "profileImage": "https://raw.githubusercontent.com/KriTech/assets/master/perfil.png"
+        },
+        "details": {
+            "phoneNumber": "4432155519",
+            "email": "jose.e.montanez.villanueva@outlook.com",
+            "nationality": "Mexican"
+        },
+        "summary" : "Young passionate person able to design, develop and implement software. Knowledge in programming languages such as Python, PHP, JSP, Java, C and Swift. Management of SQL databases in interaction with Web sites. Skills for leadership, communication, to manage teams, encourage progress towards important stages of projects, control quality and meet deadlines. With desire to learn new knowledge and experiences. With more than 2 years in iOS development experience, I am prepared for any challenge.",
+        "employmentHistory" : [
+            {
+                "title": "Freelance iOS Developer, UMSNH Morelia, Michoacán",
+                "period": "March 2016 – December 2017",
+                "activities": [
+                    "Development of native applications for the university.",
+                    "Use of swift.",
+                    "Use of Objective-C.",
+                    "Use of Cocoa Touch.",
+                    "Use of MySQL.",
+                    "Use of the MVC architecture pattern"
+                ]
+            },
+            {
+                "title": "iOS Developer at Centro de Innovación y Desarrollo Agroalimentario de Michoacán (CIDAM), Morelia, Mich, MX",
+                "period": "January 2018 – August 2018",
+                "activities": [
+                    "Development and maintenance of applications in Swift.",
+                    "Creation and consumption of REST services with JSON.",
+                    "Use of the MVC architecture pattern.",
+                    "Management of CoreData and UserDefaults.",
+                    "Management of interface animation with CoreAnimation.",
+                    "Management of Singleton and Delegates design patterns with SCRUM methodology.",
+                    "Creation of graphic user elements from code and linking to events with Target-Action.",
+                    "Handling Storyboards, Assets and Auto Layout from Interface Builder and code.",
+                    "Database management with MySQL.",
+                    "Management of third-party libraries such as Reachability, Charts.",
+                    "Test and debug generated code of all applications."
+                    
+                ]
+            },
+            {
+                "title": "iOS Developer at Universidad Michoacana de San Nicolás de Hidalgo (UMSNH), Morelia, Mich, MX",
+                "period": "September 2018 – June 2019",
+                "activities" : [
+                    "Development and maintenance of applications in Swift.",
+                    "Creation and consumption of REST services with JSON.",
+                    "Handling information with UserDefaults.",
+                    "Management of third-party libraries such as Reachability.",
+                    "Creation of user interface animations with CoreAnimation.",
+                    "Management of the MVC architecture pattern adapting to the new MVVM pattern.",
+                    "Management of Singleton and Delegate design patterns.",
+                    "Handling Storyboards, Assets and Auto Layout from InterfaceBuilder and also in code.",
+                    "Creation of graphic elements of user interface through code and linking to events with Target-Action.",
+                    "Test and debug the application code.",
+                    "Management of tasks in different threads of execution.",
+                    "Management of GIT repository."
+                ]
+            },
+            {
+                "title": "Senior iOS Developer at AMCO, Polanco, CDMX, MX",
+                "period": "June 2019 – Present",
+                "activities": [
+                    "Development and maintenance of applications in Swift.",
+                    "Creation and consumption of REST services with JSON.",
+                    "Handling information with UserDefaults.",
+                    "Management of third-party libraries such as Reachability.",
+                    "Creation of user interface animations with CoreAnimation.",
+                    "Management of the MVC, MVP architecture pattern adapting to the new MVVM pattern.",
+                    "Management of Singleton and Delegate design patterns with KANBAN methodology.",
+                    "Handling Storyboards, Assets and Auto Layout from InterfaceBuilder and also in code.",
+                    "Creation of graphic elements of user interface through code and linking to events with Target-Action.",
+                    "Test and debug the application code.",
+                    "Management of tasks in different threads of execution.",
+                    "Management of GIT repository.",
+                    "Memory management."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "title": "Computer Engineer, Facultad de Ingeniería Eléctrica, Universidad Michoacana de San Nicolás de Hidalgo, Morelia, Mich, MX",
+                "period": "August 2013 – December 2018",
+                "description": "Graduated with honors being the student with the best grades of the generation"
+            },
+            {
+                "title": "IT technician, Colegio de Bachilleres del Estado de Michoacán, Lombardía, Mich, MX",
+                "period": "August 2010 – June 2013",
+                "description": "Certified"
+            }
+        ],
+        "courses": [
+            {
+                "title": "Videojuegos 2D: Aprende SpriteKit desde cero, Udemy",
+                "url": "ude.my/UC-2CKC6H1K",
+                "issueDate": "January 2017"
+            },
+            {
+                "title": "Curso Completo de iOS 10 y Swift 3: de Cero a Experto con JB, Udemy",
+                "url": "ude.my/UC-KDZB8034",
+                "issueDate": "March 2018"
+            },
+            {
+                "title": "CCNA Routing and Switching: Introduction to Networks",
+                "issueDate": "May 2018"
+            },
+            {
+                "title": "Curso completo de Core Data en Swift - Persistencia de datos, Udemy",
+                "url": "ude.my/UC-HFIUOGNM",
+                "issueDate": "June 2018"
+            },
+            {
+                "title": "CCNA Routing and Switching: Routing and Switching Essentials",
+                "issueDate": "November 2018"
+            },
+            {
+                "title": "CCNA Routing and Switching: Scaling Networks",
+                "issueDate": "March 2019"
+            },
+            {
+                "title": "Curso completo de iOS 11 y Swift: de cero a experto con JB — Julio 2019, Udemy",
+                "url": "ude.my/UC-KCQNSUWQ",
+                "issueDate": "July 2019"
+            }
+        ],
+        "skills": [
+            {
+                "title": "iOS Development",
+                "percentage": 90
+            },
+            {
+                "title": "Web Development",
+                "percentage": 50
+            },
+            {
+                "title": "Java Programming",
+                "percentage": 50
+            },
+            {
+                "title": "Group work",
+                "percentage": 75
+            },
+            {
+                "title": "Fast Learner",
+                "percentage": 100
+            },
+            {
+                "title": "Communication Skills",
+                "percentage": 80
+            },
+            {
+                "title": "Creativity & Problem Solving",
+                "percentage": 80
+            }
+        ],
+        "languages": {
+            "English": 60,
+            "Spanish": 100
+        }
+    }
+]

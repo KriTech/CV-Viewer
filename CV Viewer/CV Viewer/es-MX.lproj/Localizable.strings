@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  CV Viewer
+
+  Created by Jose Enrique Montañez Villanueva on 15/09/19.
+  Copyright © 2019 Jose Enrique Montañez Villanueva. All rights reserved.
+*/
+"details" = "detalles";
+"mexican" = "mexicana";
+"american" = "americana";
+"summary" = "resumen";
+"position" = "posición";
+"title" = "título";
+"period" = "periodo";
+"skills" = "habilidades";
+"education" = "preparación académica";
+"employmentHistory" = "experiencia laboral";
+"activities" = "actividades";
+"courses" = "cursos";
+"issueDate" = "fecha de obtención";
+"certificates" = "certificados";
+"description" = "descripción";
+"languages" = "idiomas";
+"error" = "error";
+"ok" = "entendido";
+"unknownErrorMessage" = "ha ocurrido un error desconocido";
+"invalidURLMessage" = "la URL del currículum no es valida";
+"timeoutMessage" = "la petición ha excedido el tiempo de espera";
+"parseErrorMessage" = "la información se encuentra en un formato incorrecto";
+"fileNotFoundMessage" = "el archivo del currículum no fue encontrado";
+"noConnectionErrorMessage" = "no hay conexión a internet";

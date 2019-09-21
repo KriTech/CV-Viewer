@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D09642723348A080046F2A3 /* CV.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D09642623348A080046F2A3 /* CV.json */; };
+		5D09642823348A080046F2A3 /* CV.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D09642623348A080046F2A3 /* CV.json */; };
+		5D3CF43C2336AFD800510F19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CF43B2336AFD800510F19 /* README.md */; };
+		5DAF0BF323233C4B008B8B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0BF223233C4B008B8B35 /* AppDelegate.swift */; };
+		5DAF0BF523233C4B008B8B35 /* CVViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0BF423233C4B008B8B35 /* CVViewerViewController.swift */; };
+		5DAF0BFA23233C4C008B8B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAF0BF923233C4C008B8B35 /* Assets.xcassets */; };
+		5DAF0BFD23233C4C008B8B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAF0BFB23233C4C008B8B35 /* LaunchScreen.storyboard */; };
+		5DAF0C0823233C4D008B8B35 /* CVStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C0723233C4D008B8B35 /* CVStorageTests.swift */; };
+		5DAF0C1323233C4D008B8B35 /* CV_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C1223233C4D008B8B35 /* CV_ViewerUITests.swift */; };
+		5DAF0C2423233D24008B8B35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C2323233D24008B8B35 /* main.swift */; };
+		5DAF0C2823233D80008B8B35 /* CVViewerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C2723233D80008B8B35 /* CVViewerApplication.swift */; };
+		5DAF0C2A232340E7008B8B35 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C29232340E7008B8B35 /* ProfileTableViewCell.swift */; };
+		5DAF0C2C23234285008B8B35 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C2B23234285008B8B35 /* SummaryTableViewCell.swift */; };
+		5DAF0C2E232342BD008B8B35 /* JobDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C2D232342BD008B8B35 /* JobDescriptionTableViewCell.swift */; };
+		5DAF0C30232342C9008B8B35 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C2F232342C9008B8B35 /* DetailsTableViewCell.swift */; };
+		5DAF0C32232342EA008B8B35 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C31232342EA008B8B35 /* SkillTableViewCell.swift */; };
+		5DAF0C3423234326008B8B35 /* SchoolDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C3323234326008B8B35 /* SchoolDescriptionTableViewCell.swift */; };
+		5DAF0C3623234352008B8B35 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C3523234352008B8B35 /* CourseTableViewCell.swift */; };
+		5DAF0C392324BB44008B8B35 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C382324BB44008B8B35 /* WebServices.swift */; };
+		5DAF0C3B2324BCD4008B8B35 /* CVStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C3A2324BCD4008B8B35 /* CVStorage.swift */; };
+		5DAF0C3D2324BDF4008B8B35 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C3C2324BDF4008B8B35 /* Skill.swift */; };
+		5DAF0C412324BEF6008B8B35 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C402324BEF6008B8B35 /* Course.swift */; };
+		5DAF0C432324BFC0008B8B35 /* SchoolGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C422324BFC0008B8B35 /* SchoolGrade.swift */; };
+		5DAF0C452324C030008B8B35 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C442324C030008B8B35 /* Job.swift */; };
+		5DAF0C472324C176008B8B35 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C462324C176008B8B35 /* Details.swift */; };
+		5DAF0C492324C226008B8B35 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C482324C226008B8B35 /* Profile.swift */; };
+		5DAF0C4B2324C3B0008B8B35 /* CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF0C4A2324C3B0008B8B35 /* CV.swift */; };
+		5DD6B308232EC70E00A2D42F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6B30A232EC70E00A2D42F /* Localizable.strings */; };
+		5DD6B30F232F060200A2D42F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6B30E232F060200A2D42F /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAF0C0423233C4D008B8B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF0BE723233C4B008B8B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF0BEE23233C4B008B8B35;
+			remoteInfo = "CV Viewer";
+		};
+		5DAF0C0F23233C4D008B8B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF0BE723233C4B008B8B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF0BEE23233C4B008B8B35;
+			remoteInfo = "CV Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D09642623348A080046F2A3 /* CV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CV.json; sourceTree = "<group>"; };
+		5D3CF43B2336AFD800510F19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5DAF0BEF23233C4B008B8B35 /* CV Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CV Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF0BF223233C4B008B8B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DAF0BF423233C4B008B8B35 /* CVViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewerViewController.swift; sourceTree = "<group>"; };
+		5DAF0BF923233C4C008B8B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DAF0BFC23233C4C008B8B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DAF0BFE23233C4C008B8B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF0C0323233C4D008B8B35 /* CV ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CV ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF0C0723233C4D008B8B35 /* CVStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVStorageTests.swift; sourceTree = "<group>"; };
+		5DAF0C0923233C4D008B8B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF0C0E23233C4D008B8B35 /* CV ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CV ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF0C1223233C4D008B8B35 /* CV_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV_ViewerUITests.swift; sourceTree = "<group>"; };
+		5DAF0C1423233C4D008B8B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF0C2323233D24008B8B35 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5DAF0C2723233D80008B8B35 /* CVViewerApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewerApplication.swift; sourceTree = "<group>"; };
+		5DAF0C29232340E7008B8B35 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C2B23234285008B8B35 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C2D232342BD008B8B35 /* JobDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C2F232342C9008B8B35 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C31232342EA008B8B35 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C3323234326008B8B35 /* SchoolDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C3523234352008B8B35 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF0C382324BB44008B8B35 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		5DAF0C3A2324BCD4008B8B35 /* CVStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVStorage.swift; sourceTree = "<group>"; };
+		5DAF0C3C2324BDF4008B8B35 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		5DAF0C402324BEF6008B8B35 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5DAF0C422324BFC0008B8B35 /* SchoolGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolGrade.swift; sourceTree = "<group>"; };
+		5DAF0C442324C030008B8B35 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		5DAF0C462324C176008B8B35 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		5DAF0C482324C226008B8B35 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5DAF0C4A2324C3B0008B8B35 /* CV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV.swift; sourceTree = "<group>"; };
+		5DD6B305232EC6D100A2D42F /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5DD6B309232EC70E00A2D42F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5DD6B30B232EC71300A2D42F /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5DD6B30E232F060200A2D42F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAF0BEC23233C4B008B8B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF0C0023233C4D008B8B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF0C0B23233C4D008B8B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAF0BE623233C4B008B8B35 = {
+			isa = PBXGroup;
+			children = (
+				5D3CF43B2336AFD800510F19 /* README.md */,
+				5DAF0BF123233C4B008B8B35 /* CV Viewer */,
+				5DAF0C0623233C4D008B8B35 /* CV ViewerTests */,
+				5DAF0C1123233C4D008B8B35 /* CV ViewerUITests */,
+				5DAF0BF023233C4B008B8B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAF0BF023233C4B008B8B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0BEF23233C4B008B8B35 /* CV Viewer.app */,
+				5DAF0C0323233C4D008B8B35 /* CV ViewerTests.xctest */,
+				5DAF0C0E23233C4D008B8B35 /* CV ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAF0BF123233C4B008B8B35 /* CV Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0C2023233C7F008B8B35 /* Controllers */,
+				5DAF0C2123233C87008B8B35 /* Models */,
+				5DAF0C2223233C8F008B8B35 /* Views */,
+				5DAF0C372324BB08008B8B35 /* Utilities */,
+				5DAF0C2323233D24008B8B35 /* main.swift */,
+				5DAF0C2723233D80008B8B35 /* CVViewerApplication.swift */,
+				5DAF0BF223233C4B008B8B35 /* AppDelegate.swift */,
+				5DAF0BF923233C4C008B8B35 /* Assets.xcassets */,
+				5DAF0BFB23233C4C008B8B35 /* LaunchScreen.storyboard */,
+				5DAF0BFE23233C4C008B8B35 /* Info.plist */,
+				5DD6B30A232EC70E00A2D42F /* Localizable.strings */,
+				5D09642623348A080046F2A3 /* CV.json */,
+			);
+			path = "CV Viewer";
+			sourceTree = "<group>";
+		};
+		5DAF0C0623233C4D008B8B35 /* CV ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0C0723233C4D008B8B35 /* CVStorageTests.swift */,
+				5DAF0C0923233C4D008B8B35 /* Info.plist */,
+			);
+			path = "CV ViewerTests";
+			sourceTree = "<group>";
+		};
+		5DAF0C1123233C4D008B8B35 /* CV ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0C1223233C4D008B8B35 /* CV_ViewerUITests.swift */,
+				5DAF0C1423233C4D008B8B35 /* Info.plist */,
+			);
+			path = "CV ViewerUITests";
+			sourceTree = "<group>";
+		};
+		5DAF0C2023233C7F008B8B35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0BF423233C4B008B8B35 /* CVViewerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5DAF0C2123233C87008B8B35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0C3C2324BDF4008B8B35 /* Skill.swift */,
+				5DAF0C402324BEF6008B8B35 /* Course.swift */,
+				5DAF0C422324BFC0008B8B35 /* SchoolGrade.swift */,
+				5DAF0C442324C030008B8B35 /* Job.swift */,
+				5DAF0C462324C176008B8B35 /* Details.swift */,
+				5DAF0C482324C226008B8B35 /* Profile.swift */,
+				5DAF0C4A2324C3B0008B8B35 /* CV.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DAF0C2223233C8F008B8B35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0C29232340E7008B8B35 /* ProfileTableViewCell.swift */,
+				5DAF0C2B23234285008B8B35 /* SummaryTableViewCell.swift */,
+				5DAF0C2D232342BD008B8B35 /* JobDescriptionTableViewCell.swift */,
+				5DAF0C3323234326008B8B35 /* SchoolDescriptionTableViewCell.swift */,
+				5DAF0C2F232342C9008B8B35 /* DetailsTableViewCell.swift */,
+				5DAF0C31232342EA008B8B35 /* SkillTableViewCell.swift */,
+				5DAF0C3523234352008B8B35 /* CourseTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5DAF0C372324BB08008B8B35 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF0C382324BB44008B8B35 /* WebServices.swift */,
+				5DAF0C3A2324BCD4008B8B35 /* CVStorage.swift */,
+				5DD6B30E232F060200A2D42F /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAF0BEE23233C4B008B8B35 /* CV Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF0C1723233C4D008B8B35 /* Build configuration list for PBXNativeTarget "CV Viewer" */;
+			buildPhases = (
+				5DAF0BEB23233C4B008B8B35 /* Sources */,
+				5DAF0BEC23233C4B008B8B35 /* Frameworks */,
+				5DAF0BED23233C4B008B8B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CV Viewer";
+			productName = "CV Viewer";
+			productReference = 5DAF0BEF23233C4B008B8B35 /* CV Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAF0C0223233C4D008B8B35 /* CV ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF0C1A23233C4D008B8B35 /* Build configuration list for PBXNativeTarget "CV ViewerTests" */;
+			buildPhases = (
+				5DAF0BFF23233C4D008B8B35 /* Sources */,
+				5DAF0C0023233C4D008B8B35 /* Frameworks */,
+				5DAF0C0123233C4D008B8B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF0C0523233C4D008B8B35 /* PBXTargetDependency */,
+			);
+			name = "CV ViewerTests";
+			productName = "CV ViewerTests";
+			productReference = 5DAF0C0323233C4D008B8B35 /* CV ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DAF0C0D23233C4D008B8B35 /* CV ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF0C1D23233C4D008B8B35 /* Build configuration list for PBXNativeTarget "CV ViewerUITests" */;
+			buildPhases = (
+				5DAF0C0A23233C4D008B8B35 /* Sources */,
+				5DAF0C0B23233C4D008B8B35 /* Frameworks */,
+				5DAF0C0C23233C4D008B8B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF0C1023233C4D008B8B35 /* PBXTargetDependency */,
+			);
+			name = "CV ViewerUITests";
+			productName = "CV ViewerUITests";
+			productReference = 5DAF0C0E23233C4D008B8B35 /* CV ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAF0BE723233C4B008B8B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jose Enrique Montañez Villanueva";
+				TargetAttributes = {
+					5DAF0BEE23233C4B008B8B35 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5DAF0C0223233C4D008B8B35 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5DAF0BEE23233C4B008B8B35;
+					};
+					5DAF0C0D23233C4D008B8B35 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5DAF0BEE23233C4B008B8B35;
+					};
+				};
+			};
+			buildConfigurationList = 5DAF0BEA23233C4B008B8B35 /* Build configuration list for PBXProject "CV Viewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-MX",
+			);
+			mainGroup = 5DAF0BE623233C4B008B8B35;
+			productRefGroup = 5DAF0BF023233C4B008B8B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAF0BEE23233C4B008B8B35 /* CV Viewer */,
+				5DAF0C0223233C4D008B8B35 /* CV ViewerTests */,
+				5DAF0C0D23233C4D008B8B35 /* CV ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAF0BED23233C4B008B8B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D09642723348A080046F2A3 /* CV.json in Resources */,
+				5DAF0BFD23233C4C008B8B35 /* LaunchScreen.storyboard in Resources */,
+				5D3CF43C2336AFD800510F19 /* README.md in Resources */,
+				5DD6B308232EC70E00A2D42F /* Localizable.strings in Resources */,
+				5DAF0BFA23233C4C008B8B35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF0C0123233C4D008B8B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D09642823348A080046F2A3 /* CV.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF0C0C23233C4D008B8B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAF0BEB23233C4B008B8B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF0C3423234326008B8B35 /* SchoolDescriptionTableViewCell.swift in Sources */,
+				5DAF0C2823233D80008B8B35 /* CVViewerApplication.swift in Sources */,
+				5DAF0C392324BB44008B8B35 /* WebServices.swift in Sources */,
+				5DAF0BF523233C4B008B8B35 /* CVViewerViewController.swift in Sources */,
+				5DAF0C2C23234285008B8B35 /* SummaryTableViewCell.swift in Sources */,
+				5DAF0BF323233C4B008B8B35 /* AppDelegate.swift in Sources */,
+				5DAF0C432324BFC0008B8B35 /* SchoolGrade.swift in Sources */,
+				5DAF0C2A232340E7008B8B35 /* ProfileTableViewCell.swift in Sources */,
+				5DD6B30F232F060200A2D42F /* Extensions.swift in Sources */,
+				5DAF0C4B2324C3B0008B8B35 /* CV.swift in Sources */,
+				5DAF0C3D2324BDF4008B8B35 /* Skill.swift in Sources */,
+				5DAF0C2E232342BD008B8B35 /* JobDescriptionTableViewCell.swift in Sources */,
+				5DAF0C32232342EA008B8B35 /* SkillTableViewCell.swift in Sources */,
+				5DAF0C30232342C9008B8B35 /* DetailsTableViewCell.swift in Sources */,
+				5DAF0C2423233D24008B8B35 /* main.swift in Sources */,
+				5DAF0C412324BEF6008B8B35 /* Course.swift in Sources */,
+				5DAF0C472324C176008B8B35 /* Details.swift in Sources */,
+				5DAF0C452324C030008B8B35 /* Job.swift in Sources */,
+				5DAF0C492324C226008B8B35 /* Profile.swift in Sources */,
+				5DAF0C3623234352008B8B35 /* CourseTableViewCell.swift in Sources */,
+				5DAF0C3B2324BCD4008B8B35 /* CVStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF0BFF23233C4D008B8B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF0C0823233C4D008B8B35 /* CVStorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF0C0A23233C4D008B8B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF0C1323233C4D008B8B35 /* CV_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAF0C0523233C4D008B8B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF0BEE23233C4B008B8B35 /* CV Viewer */;
+			targetProxy = 5DAF0C0423233C4D008B8B35 /* PBXContainerItemProxy */;
+		};
+		5DAF0C1023233C4D008B8B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF0BEE23233C4B008B8B35 /* CV Viewer */;
+			targetProxy = 5DAF0C0F23233C4D008B8B35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DAF0BFB23233C4C008B8B35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAF0BFC23233C4C008B8B35 /* Base */,
+				5DD6B305232EC6D100A2D42F /* es-MX */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5DD6B30A232EC70E00A2D42F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD6B309232EC70E00A2D42F /* en */,
+				5DD6B30B232EC71300A2D42F /* es-MX */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DAF0C1523233C4D008B8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5DAF0C1623233C4D008B8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAF0C1823233C4D008B8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5L8PFB28W;
+				INFOPLIST_FILE = "CV Viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecTech.CVViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DAF0C1923233C4D008B8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5L8PFB28W;
+				INFOPLIST_FILE = "CV Viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RecTech.CVViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DAF0C1B23233C4D008B8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5L8PFB28W;
+				INFOPLIST_FILE = "CV ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RecTech.CV-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CV Viewer.app/CV Viewer";
+			};
+			name = Debug;
+		};
+		5DAF0C1C23233C4D008B8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5L8PFB28W;
+				INFOPLIST_FILE = "CV ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RecTech.CV-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CV Viewer.app/CV Viewer";
+			};
+			name = Release;
+		};
+		5DAF0C1E23233C4D008B8B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5L8PFB28W;
+				INFOPLIST_FILE = "CV ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RecTech.CV-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CV Viewer";
+			};
+			name = Debug;
+		};
+		5DAF0C1F23233C4D008B8B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5L8PFB28W;
+				INFOPLIST_FILE = "CV ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RecTech.CV-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CV Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAF0BEA23233C4B008B8B35 /* Build configuration list for PBXProject "CV Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF0C1523233C4D008B8B35 /* Debug */,
+				5DAF0C1623233C4D008B8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF0C1723233C4D008B8B35 /* Build configuration list for PBXNativeTarget "CV Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF0C1823233C4D008B8B35 /* Debug */,
+				5DAF0C1923233C4D008B8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF0C1A23233C4D008B8B35 /* Build configuration list for PBXNativeTarget "CV ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF0C1B23233C4D008B8B35 /* Debug */,
+				5DAF0C1C23233C4D008B8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF0C1D23233C4D008B8B35 /* Build configuration list for PBXNativeTarget "CV ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF0C1E23233C4D008B8B35 /* Debug */,
+				5DAF0C1F23233C4D008B8B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAF0BE723233C4B008B8B35 /* Project object */;
+}
